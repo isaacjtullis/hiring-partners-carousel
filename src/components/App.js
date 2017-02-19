@@ -1,5 +1,4 @@
 import React from 'react';
-import ImageList from './ImageList.js';
 
 class App extends React.Component {
   constructor(props){
@@ -29,6 +28,9 @@ class App extends React.Component {
 
     return (
       <div>
+        <h1>Hiring Partners</h1>
+        <h3>We work with the very best. We are proud of our partners,</h3>
+        <h3>who work with us to deliver the best training.</h3>
         <img src={this.props.data[x]}/>
       </div>
     );
